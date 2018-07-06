@@ -161,7 +161,7 @@ num_y_time_steps = np.shape(Y_test)[1]
 X_in = tf.placeholder(tf.float32, [None,num_time_steps,num_inputs])
 y = tf.placeholder(tf.float32, [None,num_y_time_steps,num_outputs])
 
-#learning rate 0.0001 is best so far
+#learning rate 0.00005 is best so far
 k = 0.00005
 
 #define RNN cell
